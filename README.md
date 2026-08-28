@@ -1,5 +1,7 @@
 # AI Assistant
 
+[![English](https://img.shields.io/badge/Language-English-blue)](README.md) [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.tr.md)
+
 Official release repository for **AI Assistant**, a Windows desktop AI assistant.
 
 This repository is used to distribute official AI Assistant builds and application updates.
@@ -57,6 +59,10 @@ Examples:
 This repository exists only for AI Assistant distribution. GitHub Releases are used by AI Assistant Setup, the automatic update system, and manual release downloads.
 
 The application source code is maintained separately.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for details.
 
 ## Website
 
