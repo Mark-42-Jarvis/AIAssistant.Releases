@@ -28,6 +28,10 @@ Setup'ı indirdikten sonra arşivden çıkartıp kurulumu başlatabilirsiniz. Se
 | **Beta** | Yeni özelliklerin daha geniş kapsamlı test edildiği sürüm |
 | **Alpha** | En yeni özelliklerin bulunduğu erken geliştirme sürümü |
 
+Yeni sürümleri, Alpha / Beta test build'lerini ve Stable sürümleri buradan takip edebilirsiniz:
+
+**👉 [Tüm AI Assistant Releases](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases)**
+
 ## Kurulum
 
 AI Assistant kendi Windows Installer'ı ile kurulabilir. Gerekli uygulama dosyaları Installer tarafından hazırlanır.
@@ -100,11 +104,3 @@ MIT License ile yayınlanmaktadır. Detaylar için [`LICENSE`](LICENSE) dosyası
 ## Website
 
 https://tanersaydam.net
-
----
-
-### Releases
-
-Yeni sürümleri, Alpha / Beta test build'lerini ve Stable sürümleri buradan takip edebilirsiniz:
-
-**👉 [Tüm AI Assistant Releases](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases)**
