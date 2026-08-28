@@ -14,7 +14,7 @@ Amacım sadece soru sorup cevap aldığınız bir chat uygulaması yapmak değil
 
 ### Windows Setup üzerinden kurmak için:
 
-## **[⬇️ AI ASSISTANT SETUP'I BURADAN İNDİR](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases/download/Setup/AIAssistant.Setup.rar)**
+## **[⬇️ AI ASSISTANT SETUP'I BURADAN İNDİR](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases/download/Download/AIAssistant.Setup.rar)**
 
 Setup'ı indirdikten sonra arşivden çıkartıp kurulumu başlatabilirsiniz. Setup gerekli AI Assistant dosyalarını indirip kurulumu tamamlar.
 
