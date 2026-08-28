@@ -1,69 +1,77 @@
 # AI Assistant
 
-**Dil değişimi için tıkla →** [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.md) [![English](https://img.shields.io/badge/Language-English-blue)](README.en.md)
+**Dil değiştirmek için tıkla →** [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.md) [![English](https://img.shields.io/badge/Language-English-blue)](README.en.md)
 
-**AI Assistant** için resmi sürüm deposu. AI Assistant, Windows için geliştirilmiş bir masaüstü AI asistanıdır.
+AI Assistant, Windows üzerinde çalışan ve **kişisel AI asistanı** olmak için tasarlanan bir masaüstü uygulamasıdır.
 
-Bu depo, resmi AI Assistant sürümlerini ve uygulama güncellemelerini dağıtmak için kullanılır.
+Amacım sadece soru sorup cevap aldığınız bir chat uygulaması yapmak değil. AI Assistant'ın zamanla bilgisayarınızda sizinle birlikte çalışan, ihtiyaç duyduğunuz işlemleri yapabilen ve günlük kullanımda gerçekten bir kişisel asistana dönüşen bir uygulama olması.
 
-> Bu depo AI Assistant kaynak kodunu içermez.
+> 🚧 **AI Assistant hala aktif olarak geliştiriliyor.** Özellikler değişebilir, yeni özellikler eklenebilir ve özellikle Alpha / Beta sürümlerde hatalarla karşılaşabilirsiniz.
 
-## İndirme
+## İndir
 
-Normal kullanım için **Releases** bölümündeki en güncel **Stable** sürümü indirin.
+En güncel sürümü GitHub Releases üzerinden indirebilirsiniz.
 
-Test amacıyla ön sürümler de yayınlanabilir:
+### 👇 İndirmek için aşağıdaki linke tıklayın
 
-| Kanal | Açıklama |
+**[AI Assistant Releases →](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases)**
+
+Normal kullanım için **Stable** sürümü tercih etmenizi öneririm.
+
+| Channel | Ne anlama geliyor? |
 | --- | --- |
 | **Stable** | Normal kullanım için önerilen sürüm |
-| **Beta** | Yaklaşan özelliklerin test edildiği sürüm |
-| **Alpha** | Erken geliştirme ve test sürümü |
+| **Beta** | Yeni özelliklerin daha geniş kapsamlı test edildiği sürüm |
+| **Alpha** | En yeni özelliklerin bulunduğu erken geliştirme sürümü |
 
 ## Kurulum
 
-AI Assistant kendi Windows installer'ını kullanır. Installer en güncel Stable sürümü indirir ve gerekli uygulama bileşenlerini kurar.
+AI Assistant kendi Windows Installer'ı ile kurulabilir. Gerekli uygulama dosyaları Installer tarafından hazırlanır.
 
-Ayrıca .NET kurulmasına gerek yoktur.
+Ayrıca .NET, Node.js, Angular CLI veya benzeri development araçlarını kurmanız gerekmez.
 
-## Otomatik Güncellemeler
+## Update
 
-AI Assistant dahili bir self-update sistemine sahiptir. Yeni bir sürüm yayınlandığında uygulama bunu otomatik olarak tespit edebilir.
+AI Assistant kendi update sistemine sahiptir. Yeni bir sürüm yayınlandığında uygulama bunu kontrol edebilir ve size yeni sürüm olduğunu gösterebilir.
 
-Uygulama arayüzünden güncelleme yapabilir veya AI Assistant'a doğrudan şunu söyleyebilirsiniz:
+Update işlemini uygulama içerisinden başlatabileceğiniz gibi AI Assistant'a doğrudan:
 
 > **Kendini güncelle**
 
-AI Assistant yeni sürümü indirir, kendisini yeniden başlatır ve güncellenmiş sürümle çalışmaya devam eder.
+demeniz de yeterlidir.
 
-## Sürüm Dosyaları
+AI Assistant yeni sürümü indirir, uygulamayı kapatır, update işlemini tamamlar ve tekrar açar.
 
-Uygulama paketleri şu isimlendirme yapısını kullanır:
+## Release Channels
 
-`AIAssistant-{version}-win-x64.zip`
+AI Assistant üç farklı release channel kullanır: **Stable**, **Beta** ve **Alpha**.
 
-Örnekler:
-
-- `AIAssistant-1.0.0-win-x64.zip`
-- `AIAssistant-1.1.0-beta.1-win-x64.zip`
-- `AIAssistant-1.2.0-alpha.1-win-x64.zip`
+Hangi channel'ı takip etmek istediğinizi uygulamanın Settings bölümünden seçebilirsiniz. Stable varsayılan seçenektir.
 
 ## Platform
 
 - Windows 10 / 11
 - x64
-- Self-contained .NET uygulaması
+- Self-contained .NET application
 
-## Bu Depo Hakkında
+## Repository Hakkında
 
-Bu depo yalnızca AI Assistant dağıtımı için kullanılır. GitHub Releases; AI Assistant Setup, otomatik güncelleme sistemi ve manuel sürüm indirmeleri tarafından kullanılır.
+Bu repository, AI Assistant'ın public release dosyalarını yayınlamak ve uygulamanın update sistemini çalıştırmak için kullanılıyor.
 
-Uygulamanın kaynak kodu ayrı olarak tutulmaktadır.
+Source code burada paylaşılmıyor. Bu repository içerisinde ağırlıklı olarak GitHub Releases ve uygulamanın dağıtımıyla ilgili dosyalar bulunuyor.
 
-## Lisans
+## License
 
-MIT License altında dağıtılmaktadır. Ayrıntılar için `LICENSE` dosyasına bakın.
+MIT License ile yayınlanmaktadır. Detaylar için [`LICENSE`](LICENSE) dosyasına bakabilirsiniz.
 
-## Web Sitesi
+## Website
 
 https://tanersaydam.net
+
+---
+
+### Releases
+
+Yeni sürümleri, Alpha / Beta test build'lerini ve Stable sürümleri buradan takip edebilirsiniz:
+
+**👉 [Tüm AI Assistant Releases](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases)**
