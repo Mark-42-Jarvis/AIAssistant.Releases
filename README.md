@@ -1,48 +1,48 @@
 # AI Assistant
 
-[![English](https://img.shields.io/badge/Language-English-blue)](README.md) [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.tr.md)
+**Dil değişimi için tıkla →** [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.md) [![English](https://img.shields.io/badge/Language-English-blue)](README.en.md)
 
-Official release repository for **AI Assistant**, a Windows desktop AI assistant.
+**AI Assistant** için resmi sürüm deposu. AI Assistant, Windows için geliştirilmiş bir masaüstü AI asistanıdır.
 
-This repository is used to distribute official AI Assistant builds and application updates.
+Bu depo, resmi AI Assistant sürümlerini ve uygulama güncellemelerini dağıtmak için kullanılır.
 
-> This repository does not contain the AI Assistant source code.
+> Bu depo AI Assistant kaynak kodunu içermez.
 
-## Download
+## İndirme
 
-For normal use, download the latest **Stable** version from the **Releases** section.
+Normal kullanım için **Releases** bölümündeki en güncel **Stable** sürümü indirin.
 
-Pre-release versions may also be available for testing:
+Test amacıyla ön sürümler de yayınlanabilir:
 
-| Channel | Description |
+| Kanal | Açıklama |
 | --- | --- |
-| **Stable** | Recommended for normal use |
-| **Beta** | Testing version with upcoming features |
-| **Alpha** | Early development and testing version |
+| **Stable** | Normal kullanım için önerilen sürüm |
+| **Beta** | Yaklaşan özelliklerin test edildiği sürüm |
+| **Alpha** | Erken geliştirme ve test sürümü |
 
-## Installation
+## Kurulum
 
-AI Assistant uses its own Windows installer. The installer downloads the latest Stable release and installs the required application components.
+AI Assistant kendi Windows installer'ını kullanır. Installer en güncel Stable sürümü indirir ve gerekli uygulama bileşenlerini kurar.
 
-No separate .NET installation is required.
+Ayrıca .NET kurulmasına gerek yoktur.
 
-## Automatic Updates
+## Otomatik Güncellemeler
 
-AI Assistant includes a built-in self-update system. When a newer version is available, the application can detect it automatically.
+AI Assistant dahili bir self-update sistemine sahiptir. Yeni bir sürüm yayınlandığında uygulama bunu otomatik olarak tespit edebilir.
 
-You can update from the application interface or simply ask AI Assistant:
+Uygulama arayüzünden güncelleme yapabilir veya AI Assistant'a doğrudan şunu söyleyebilirsiniz:
 
-> **Update yourself**
+> **Kendini güncelle**
 
-AI Assistant will download the new version, restart itself, and continue on the updated version.
+AI Assistant yeni sürümü indirir, kendisini yeniden başlatır ve güncellenmiş sürümle çalışmaya devam eder.
 
-## Release Files
+## Sürüm Dosyaları
 
-Application packages follow this naming convention:
+Uygulama paketleri şu isimlendirme yapısını kullanır:
 
 `AIAssistant-{version}-win-x64.zip`
 
-Examples:
+Örnekler:
 
 - `AIAssistant-1.0.0-win-x64.zip`
 - `AIAssistant-1.1.0-beta.1-win-x64.zip`
@@ -52,18 +52,18 @@ Examples:
 
 - Windows 10 / 11
 - x64
-- Self-contained .NET application
+- Self-contained .NET uygulaması
 
-## About This Repository
+## Bu Depo Hakkında
 
-This repository exists only for AI Assistant distribution. GitHub Releases are used by AI Assistant Setup, the automatic update system, and manual release downloads.
+Bu depo yalnızca AI Assistant dağıtımı için kullanılır. GitHub Releases; AI Assistant Setup, otomatik güncelleme sistemi ve manuel sürüm indirmeleri tarafından kullanılır.
 
-The application source code is maintained separately.
+Uygulamanın kaynak kodu ayrı olarak tutulmaktadır.
 
-## License
+## Lisans
 
-Distributed under the MIT License. See `LICENSE` for details.
+MIT License altında dağıtılmaktadır. Ayrıntılar için `LICENSE` dosyasına bakın.
 
-## Website
+## Web Sitesi
 
 https://tanersaydam.net
