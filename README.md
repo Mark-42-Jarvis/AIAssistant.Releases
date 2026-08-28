@@ -8,15 +8,19 @@ Amacım sadece soru sorup cevap aldığınız bir chat uygulaması yapmak değil
 
 > 🚧 **AI Assistant hala aktif olarak geliştiriliyor.** Özellikler değişebilir, yeni özellikler eklenebilir ve özellikle Alpha / Beta sürümlerde hatalarla karşılaşabilirsiniz.
 
-## İndir
+---
 
-En güncel sürümü GitHub Releases üzerinden indirebilirsiniz.
+# 👇 AI ASSISTANT'I İNDİR
 
-### 👇 İndirmek için aşağıdaki linke tıklayın
+### Windows Setup üzerinden kurmak için:
 
-**[AI Assistant Releases →](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases)**
+## **[⬇️ AI ASSISTANT SETUP'I İNDİR](https://github.com/Mark-42-Jarvis/AIAssistant.Releases/releases)**
 
-Normal kullanım için **Stable** sürümü tercih etmenizi öneririm.
+**Stable sürüm normal kullanım için önerilir.** Releases sayfasından en güncel Stable release içerisindeki Setup dosyasını indirebilirsiniz.
+
+---
+
+## Release Channels
 
 | Channel | Ne anlama geliyor? |
 | --- | --- |
@@ -71,7 +75,7 @@ demeniz de yeterlidir.
 
 AI Assistant yeni sürümü indirir, uygulamayı kapatır, update işlemini tamamlar ve tekrar açar.
 
-## Release Channels
+## Release Channel Seçimi
 
 AI Assistant üç farklı release channel kullanır: **Stable**, **Beta** ve **Alpha**.
 
