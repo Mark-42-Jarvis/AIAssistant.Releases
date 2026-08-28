@@ -1,6 +1,6 @@
 # AI Assistant
 
-**Dil değiştirmek için tıkla →** [![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.md) [![English](https://img.shields.io/badge/Language-English-blue)](README.en.md)
+[![Türkçe](https://img.shields.io/badge/Dil-Türkçe-red)](README.md)
 
 AI Assistant, Windows üzerinde çalışan ve **kişisel AI asistanı** olmak için tasarlanan bir masaüstü uygulamasıdır.
 
