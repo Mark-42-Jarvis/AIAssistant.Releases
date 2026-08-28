@@ -30,6 +30,35 @@ AI Assistant kendi Windows Installer'ı ile kurulabilir. Gerekli uygulama dosyal
 
 Ayrıca .NET, Node.js, Angular CLI veya benzeri development araçlarını kurmanız gerekmez.
 
+## Verileriniz Nerede Tutuluyor?
+
+AI Assistant'ın size ait verileri uygulamanın kurulu olduğu bilgisayardaki **Data** klasöründe tutulur.
+
+Temel kurulum yapısı şu şekildedir:
+
+```text
+AI Assistant/
+├── App/       # Uygulama dosyaları
+├── Data/      # Size ait kalıcı veriler
+└── Updater/   # Update sistemi
+```
+
+`App` klasörü yeni bir release ile değişebilir. `Data` klasörü ise uygulama update edildiğinde korunur. Böylece uygulamayı güncellediğinizde kişisel verileriniz silinmez.
+
+AI Assistant local verilerini SQLite üzerinde saklar. Bunun için ayrıca SQL Server veya başka bir database server kurmanız gerekmez.
+
+## Memory
+
+AI Assistant'ın önemli özelliklerinden biri **Memory** yapısıdır.
+
+Amaç, her konuşmaya tamamen sıfırdan başlayan bir AI yerine; sizin özellikle kalıcı olmasını istediğiniz bilgileri, tercihleri ve kullandığınız isimlerin ne anlama geldiğini hatırlayabilen kişisel bir asistan oluşturmaktır.
+
+Örneğin bir proje için kullandığınız özel bir isim, tercihleriniz veya daha sonra tekrar kullanılmasını istediğiniz bir bilgi Memory olarak kaydedilebilir. Bu bilgiler sonraki oturumlarda tekrar kullanılabilir.
+
+Memory kayıtları da AI Assistant'ın local Data yapısında tutulur. Yani uygulamanın kendi kalıcı verilerinin bir parçasıdır ve normal bir update sırasında silinmez.
+
+Memory sistemi de AI Assistant'ın geri kalanı gibi aktif olarak geliştirilmeye devam ediyor.
+
 ## Update
 
 AI Assistant kendi update sistemine sahiptir. Yeni bir sürüm yayınlandığında uygulama bunu kontrol edebilir ve size yeni sürüm olduğunu gösterebilir.
